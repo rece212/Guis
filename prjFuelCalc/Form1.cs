@@ -50,6 +50,10 @@ namespace prjFuelCalc
                         + dblCalulcator;
                   txtL.Text= ""; // this is to clear the text box after the calculation
 
+                  
+
+
+
 
 
                 }
@@ -67,6 +71,7 @@ namespace prjFuelCalc
             catch (Exception ex)
             {
                 MessageBox.Show("Don't be a tool , click the Tool :) " + ex.ToString());
+                cmbFuelType.Focus();
             }
 
         }
