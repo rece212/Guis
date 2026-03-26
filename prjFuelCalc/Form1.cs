@@ -48,7 +48,7 @@ namespace prjFuelCalc
                     double dblCalulcator = arrFuelPricesMarchDouble[iArea, iFuelType] * dblL;
                     rtbOutput.Text = "The fuel price for March - " + cmbFuelType.Text + " is R"
                         + dblCalulcator;
-                  
+                  txtL.Text= ""; // this is to clear the text box after the calculation
 
 
 
