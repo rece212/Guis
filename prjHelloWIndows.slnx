@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="prjFuelCalc/prjFuelCalc.csproj" />
+  <Project Path="prjHelloWIndows/prjHelloWIndows.csproj" />
+</Solution>
